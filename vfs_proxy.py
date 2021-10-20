@@ -224,3 +224,4 @@ while True:
         server_space = int(multipart[2].decode('utf-8'))
         servers.append([server_ip, server_space])
         socket_proxy.send_string("ok")
+
